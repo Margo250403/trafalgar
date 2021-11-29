@@ -15,10 +15,12 @@ body{
     align-items: center;
 }
 header{
+    padding: 56px 192px;
+}
+.nav-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 56px 192px;
 }
 .logo{
     font-size: 24px;
@@ -44,29 +46,32 @@ header{
 }
 .navigation ul{
     display: flex;
-    justify-content: space-between;
+}
+.navigation li{
+    margin-right: 40px; 
+}
+.navigation li:last-child{
+    margin-right: 0px; 
 }
 .navigation a{
     font-size: 18px;
     line-height: 1.2;
+    font-weight: 400;
     color: #1F1534;
     opacity: 0.5;
-    margin-left: 40px; 
 }
-.bold-home{
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: bold;
+.navigation a.active{
     color: black;
-    opacity:100%;
+    font-weight: bold;
+    opacity: 100%;
 }
 .navigation a:hover{
-    opacity:100%
+    opacity: 100%;
 }
-.section1{
+section{
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left -50px top;
     background-size: 115px 131px;
 }
 .section1{
@@ -135,7 +140,7 @@ image{
     margin-bottom: 33px;
     margin-top: 192px;
 }
-.section2 h2::after{
+.section2 h2::after{ 
     content: "";
     display: block;
     width: 56px;
@@ -147,7 +152,6 @@ image{
     margin-left: auto;
     margin-right: auto;
 }
-
 .section2 h3{
     text-align: left;
     font-style: normal;
@@ -238,7 +242,7 @@ image{
     font-weight: bold;
     margin-top: 191px;
 }
-.section3 h2::after{
+.content-section3 h2::after{
     content: "";
     display: block;
     width: 56px;
@@ -247,7 +251,6 @@ image{
     border-radius: 5px;
     margin-top: 26px;
     margin-bottom: 33px;
-    margin-left: auto;
     margin-right: auto;
 }
 .content-section3 p{
@@ -255,13 +258,60 @@ image{
     line-height: 1.66;
     font-weight: 300;
     color:#7D7987;
+    width: 450px;
     margin-bottom: 59px;
 }
-.section3 .button_clear{
+.content-section3 .button_clear{
     display: flex;
     justify-content: center;
 }
-.section3 .button_clear a{
+.content-section3 .button_clear a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding: 15px 18px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 200px;
+    opacity: 0.7;
+    margin-top: 40px;
+    margin-bottom: 262px;
+}
+.content-section4 h2{
+    font-size: 48px;
+    line-height: 1.17;
+    margin-bottom: 25px;
+    font-weight: bold;
+    margin-top: 191px;
+}
+.content-section4 h2::after{
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    margin-right: auto;
+}
+.content-section4 p{
+    font-size: 18px;
+    line-height: 1.66;
+    font-weight: 300;
+    color:#7D7987;
+    margin-bottom: 59px;
+    width: 420px;
+}
+.content-section4 .button_clear{
+    display: flex;
+    justify-content: center;
+}
+.content-section4 .button_clear a{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
