@@ -68,10 +68,10 @@ header{
 .navigation a:hover{
     opacity: 100%;
 }
-section{
+.section1{
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: left -50px top;
+    background-position: left -50px top 160px;
     background-size: 115px 131px;
 }
 .section1{
@@ -110,13 +110,12 @@ section{
     min-width: 200px;
     margin-bottom: 346px;
 }
- 
 .container{
     width: 1120px;
     margin-right:auto;
     margin-left:auto;
 }
-image{
+.section2 img{
     height: 90px;
     width: 91px;
 }
@@ -197,7 +196,10 @@ image{
     margin-bottom: 80px;
 }
 .cards{
-    padding-bottom: 50px; 
+    padding-bottom: 55px; 
+}
+.cards_last_small {
+    padding-bottom: 75px;
 }
 .section2 p{
     text-align: left;
@@ -232,9 +234,6 @@ image{
     padding-top: 84px;
     padding-bottom: 192px;
 } 
-.section3 > div{
-    gap: 142px;
-}
 .content-section3 h2{
     font-size: 48px;
     line-height: 1.17;
@@ -263,7 +262,7 @@ image{
 }
 .content-section3 .button_clear{
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 .content-section3 .button_clear a{
     font-style: normal;
@@ -279,7 +278,7 @@ image{
     min-width: 200px;
     opacity: 0.7;
     margin-top: 40px;
-    margin-bottom: 262px;
+    margin-bottom: 229Spx;
 }
 .content-section4 h2{
     font-size: 48px;
@@ -309,7 +308,7 @@ image{
 }
 .content-section4 .button_clear{
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 .content-section4 .button_clear a{
     font-style: normal;
@@ -327,7 +326,101 @@ image{
     margin-top: 40px;
     margin-bottom: 262px;
 }
-
+.section6{
+    background-image: url("image/points.svg"), url("image/drop_right.svg");
+    background-repeat: no-repeat;
+    background-position: left 191px top 100px, right top;
+    background-size: 115px 131px, 557px 778px;
+}
+.section6 h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.55;
+    margin-bottom: 72px;
+    margin-top: 227px;
+}
+.section6 h2::after{ 
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section6 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 34px; 
+}
+.section6 li{
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    padding: 24px 33px 35px;
+    margin-bottom: 30px;
+}
+.section2 li:hover{
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+.section6 li > img{
+    width: 100%;
+}
+.section6 h3{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #000000;
+    line-height: 1.55;
+    margin-bottom: 12px;
+}
+.section6 p{
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #7D7987;
+    margin-bottom: 25px;
+}
+.cards_2 a{
+    display: inline-flex;
+    gap: 15px;
+    align-items: baseline;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.65;
+    color: #4089ED;
+}
+.section6 .button_clear{
+    display: flex;
+    justify-content: center;
+}
+.section6 .button_clear a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding: 15px 18px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 200px;
+    opacity: 0.7;
+    margin-top: 42px;
+    margin-bottom: 200px;
+}
 
 
 
