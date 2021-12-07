@@ -65,9 +65,14 @@ header{
 .section1{
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: left -2.3%  top;
+    background-position: left -3.3%  top;
     background-size: auto;
 }
+.section1{
+    width: 1600px;
+    margin-right:auto;
+    margin-left:auto;
+} 
 .section1 > div{
     display: flex;
     justify-content: space-between;
@@ -226,8 +231,13 @@ header{
 .section3{
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: right -2.3% bottom;
+    background-position: right -3.3% bottom;
     background-size: auto;
+} 
+.section3{
+    width: 1600px;
+    margin-right:auto;
+    margin-left:auto;
 } 
 .section3 > div{
     display: flex;
