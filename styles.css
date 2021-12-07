@@ -2,17 +2,11 @@
 body{
     font-family: Mulish, sans-serif;
     background-color: #FFFFFF;
-    width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .container-big{
     width: 1220px;
     margin-right:auto;
     margin-left:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 header{
     padding: 56px 192px;
@@ -71,14 +65,13 @@ header{
 .section1{
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left -2.3%  top;
     background-size: auto;
 }
-.section1{
-    padding-top: 84px;
-    padding-bottom: 192px;
-} 
 .section1 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 108px;
 }
 .hero-content h2{
@@ -123,7 +116,7 @@ header{
     width: 1600px;
     margin-right:auto;
     margin-left:auto;
-}
+} 
 .section2{
     background-image: url("image/drops.svg"), url("image/points.svg");
     background-repeat: no-repeat;
@@ -231,13 +224,17 @@ header{
     margin-bottom: 220px;
 }
 .section3{
-    padding-top: 84px;
-    padding-bottom: 192px;
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right -2.3% bottom;
     background-size: auto;
 } 
+.section3 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 142px;
+}
 .content-section3 h2{
     font-size: 48px;
     line-height: 1.17;
@@ -261,8 +258,8 @@ header{
     line-height: 1.66;
     font-weight: 300;
     color:#7D7987;
-    width: 450px;
     margin-bottom: 59px;
+    width: 420px;
 }
 .content-section3 .button_clear{
     display: flex;
@@ -282,7 +279,13 @@ header{
     min-width: 200px;
     opacity: 0.7;
     margin-top: 40px;
-    margin-bottom: 229Spx;
+    margin-bottom: 262px;
+}
+.section4 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 142px;
 }
 .content-section4 h2{
     font-size: 48px;
@@ -333,7 +336,7 @@ header{
 .section5{
     background-image: url("image/points.svg");
     background-repeat: no-repeat;
-    background-position: left 12.9% bottom 100px;
+    background-position: left 24.5% bottom 100px;
     background-size: 115px 131px;
     color: #FFFFFF;
 }
@@ -403,7 +406,7 @@ header{
 .section6{
     background-image: url("image/points.svg"), url("image/points.svg"), url("image/drop_right.svg");
     background-repeat: no-repeat;
-    background-position: left 191px top 100px, right 91px bottom -44px, right top 100px;
+    background-position: left 24.8% top 12.8%, right 5.7% bottom -4.9%, right 16.5% top 17.3%;
     background-size: auto, auto, auto;
 }
 .section6 h2{
@@ -477,11 +480,11 @@ header{
     line-height: 1.65;
     color: #4089ED;
 }
-.section6 .button_clear{
+ .section6 .button_clear{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 .section6 .button_clear a{
     font-style: normal;
     font-weight: bold;
@@ -498,14 +501,16 @@ header{
     margin-top: 42px;
     margin-bottom: 200px;
 }
-
-.footer {
+.footer  {
     background-image:url("image/points-on-gradient.svg"), linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     background-repeat: no-repeat;
     background-position: left -19px bottom -27px, center;
     background-size: auto, cover;
-    padding: 109px 190px;
+    padding: 109px 0px;
+}
+.footer > div{
     display: flex;
+    justify-content: space-between;
 }
 .logo-footer{
     font-size: 24px;
@@ -548,7 +553,7 @@ header{
 }
 .footer-list{
     display: flex;
-    gap: 145px;
+    gap:145px;
 }
 .blocks li{
     display: flex;
